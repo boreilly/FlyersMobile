@@ -1,0 +1,674 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Philadelphia Flyers</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+<link href="css/mobileTheme.css" rel="stylesheet" type="text/css" media="screen">
+<script src="js/players.js"></script>
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
+</head>
+
+<body onLoad="getPlayers();">
+	<div data-role="page" id="home" data-theme="c">
+    	
+        <div data-role="header" data-theme="a">
+        	<h1><span class="info">Philadelphia Flyers</span></h1>
+        </div><!-- end of header -->
+        
+        <div id="Logo" data-role="content" data-theme="a">
+        	<img src="images/Flyers_logo.png" alt="Logo" />
+          
+            
+        </div><!-- end of content tag -->
+        
+        <div id="enter" data-role="content" data-theme="a">
+        	
+            <nav data-role="navbar">
+            	
+                <ul>
+                	<li><a href="#players"><span class="menu">Star Players</span></a></li>  
+                </ul>
+                
+            </nav>
+            
+        </div><!-- end of footer tag -->
+        
+    </div><!-- end of homepage -->
+
+	<div data-role="page" id="players" data-theme="a">
+    	
+        <div data-role="header" data-theme="a">
+        <a href="#home" data-role="button" data-theme="a">Home</a>
+        	<h1><span class="info">Star Players</span></h1>
+        </div><!-- end of header -->
+        
+        <div data-role="content" id="content" data-theme="a">
+        	<!--inset adds margin space, data-filter adds search-->
+            <ul id="playerList" data-role="listview" data-inset="true" data-filter="true">
+            	
+            </ul>
+            
+        </div><!-- end of content tag -->
+        
+        <div data-role="footer" data-theme="a" data-position="fixed">
+        	
+            <nav  data-role="navbar">
+            	
+                <ul>
+                	<li><a href="#home"><span class="menu">Home</span></a></li>
+                    <li><a href="#info" data-rel="dialog"><span class="menu">Info</span></a></li>
+                </ul>
+                
+            </nav>
+            
+        </div><!-- end of footer tag -->
+        
+</div>
+
+<div data-role="page" id="info" data-theme="a">
+    	
+        <div data-role="header" data-theme="a">
+       		
+            <h1><span class="info">The Star Players</span></h1>
+             
+        </div><!-- End of Header -->
+        
+        <div data-role="content">
+        
+        	<p>Click on one of the Star Players listed in order to find out more!</p>
+        	<a href="#" data-role="button" data-inline="true" data-rel="back" data-theme="a">Cancel</a>
+            
+        </div><!-- end of content -->
+        
+    </div><!--End of Info page -->
+
+<div data-role="page" id="Giroux">
+    
+    	<div data-role="header" data-theme="a">
+        
+        	<h3>Claude Giroux</h3>
+        	<a href="#players" data-role="button" data-theme="a">Home</a>
+         
+        </div><!--End of header -->
+        
+        <div data-role="content">
+        	
+            <h2><span class="info">Claude Giroux</span></h2>
+            
+            <div id="GirouxBio" class="ui-grid-a">
+            
+            	<div class="ui-block-a">
+            		<img src="images/giroux.jpg" alt="Giroux" />
+                </div>
+                
+                <div class="ui-block-b">
+                
+                	<h4><span class="info">Bio</span></h4>
+                    <ul>
+                    	<li>Height: 5' 11"</li>
+						<li>Weight: 172</li>
+						<li>Shoots: Right</li>
+						<li>Born: Jan 12, 1988  (Age 24)</li>
+						<li>Birthplace: Hearst, ON, Canada</li>
+						<li>Drafted: PHI / 2006 NHL Entry Draft</li>
+						<li>Round: 1st (22nd overall)</li> 
+                    </ul>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="ui-grid-solo">
+            
+            	<div class="ui-block-a">
+                	<p>A Canadian professional ice hockey centre who is a member of the Philadelphia Flyers. He is currently signed with Eisbären Berlin of the Deutsche Eishockey Liga (DEL) during the NHL lockout. Giroux was the Flyers' first round draft selection in the 2006 NHL Entry Draft, selected 22nd overall. Prior to playing in the NHL, Giroux played his major junior career with the Gatineau Olympiques of the Quebec Major Junior Hockey League (QMJHL), where he helped win a 2008 President's Cup and earned the Guy Lafleur Trophy as the 2008 playoff MVP. Internationally, he won a gold medal with Team Canada in the 2008 World Junior Ice Hockey Championships.
+                    </p>
+                </div>
+            
+            </div>
+            
+            <div data-role="collapsible-set" data-theme="a">
+            
+            	<div data-role="collapsible" data-theme="a">
+                
+                	<h3>2011/2012 Season Stats</h3>
+                    <p><span class="info">GP:</span>77 	
+                    <span class="info">G:</span>28 	
+                    <span class="info">A:</span> 65 	
+                    <span class="info">P:</span> 93 	
+                    <span class="info">+/-:</span> 6 	
+                    <span class="info">PIM:</span> 29 	
+                    <span class="info">PP:</span> 6 	
+                    <span class="info">SH:</span>0 	
+                    <span class="info">GW:</span>5 	
+                    <span class="info">S:</span> 242 	
+                    <span class="info">S%:</span>11.6%	
+                    </p>
+                
+                </div>
+                
+                <div data-role="collapsible" data-theme="a">
+                
+                	<h3>2011/2012 Playoff Stats</h3>
+                    <p><span class="info">GP:</span>10 	
+                    <span class="info">G:</span>8 	
+                    <span class="info">A:</span> 9 	
+                    <span class="info">P:</span> 17 	
+                    <span class="info">+/-:</span> 2 	
+                    <span class="info">PIM:</span> 13 	
+                    <span class="info">PP:</span> 3 	
+                    <span class="info">SH:</span>2 	
+                    <span class="info">GW:</span>0 	
+                    <span class="info">S:</span> 36 	
+                    <span class="info">S%:</span>22.2%	
+                    </p>
+                </div>
+                
+                <div data-role="collapsible" data-theme="a">
+                
+                	<h3>Career Total</h3>
+                 <p><span class="info">GP:</span>285 	
+                    <span class="info">G:</span>78
+                    <span class="info">A:</span> 165 	
+                    <span class="info">P:</span> 243	
+                    <span class="info">+/-:</span> 25 	
+                    <span class="info">PIM:</span> 113 	
+                    <span class="info">PP:</span> 24	
+                    <span class="info">SH:</span>3	
+                    <span class="info">GW:</span>12 	
+                    <span class="info">S:</span> 625 	
+                    <span class="info">S%:</span>12.5%	
+                    </p>
+                </div>
+            
+            </div>
+            
+        </div><!-- end of content -->
+    
+    	<div data-role="footer" data-theme="a" data-position="fixed">
+        
+        	<nav  data-role="navbar">
+            	
+                <ul>
+                	<li><a href="#players"><span class="menu">Back to Players</span></a></li>
+                    
+                </ul>
+                
+            </nav>
+        
+        </div> <!-- end of footer -->
+    	
+    </div><!--End of Player page-->
+<div data-role="page" id="Hartnell">
+    
+    	<div data-role="header" data-theme="a">
+        
+        	<h3>Scott Hartnell</h3>
+        	<a href="#players" data-role="button" data-theme="a">Home</a>
+         
+        </div><!--End of header -->
+        
+        <div data-role="content">
+        	
+            <h2><span class="info">Scott Hartnell</span></h2>
+            
+            <div id="HartnellBio" class="ui-grid-a">
+            
+            	<div class="ui-block-a">
+            		<img src="images/hartnell.jpg" alt="Hartnell" />
+                </div>
+                
+                <div class="ui-block-b">
+                
+                	<h4><span class="info">Bio</span></h4>
+                    <ul>
+                    	<li>Height: 6'2"</li>
+						<li>Weight: 210</li>
+						<li>Shoots: Left</li>
+						<li>Born: Apr 18, 1982  (Age 30)  </li>
+						<li>Birthplace: Regina, SK, Canada</li>
+						<li>Drafted: NSH / 2000 NHL Entry Draft</li>
+						<li>Round: 1st (6th overall) </li> 
+                    </ul>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="ui-grid-solo">
+            
+            	<div class="ui-block-a">
+                	<p>As the starting left-wing forward for the Philadelphia Flyers, an NHL All-Star, a featured player in HBO’s 24/7 Flyers/Rangers series and the star of countless Youtube moments, Scott Hartnell is an exceptional athlete, natural performer, and devoted philanthropist.He has also played with the Nashville Predators.
+                    </p>
+                </div>
+            
+            </div>
+            
+            <div data-role="collapsible-set" data-theme="a">
+            
+            	<div data-role="collapsible" data-theme="a">
+                
+                	<h3>2011/2012 Season Stats</h3>
+                    <p><span class="info">GP:</span>82	
+                    <span class="info">G:</span>37 	
+                    <span class="info">A:</span> 30 	
+                    <span class="info">P:</span> 67 	
+                    <span class="info">+/-:</span> 19 	
+                    <span class="info">PIM:</span> 139 	
+                    <span class="info">PP:</span> 16 	
+                    <span class="info">SH:</span>0 	
+                    <span class="info">GW:</span>6 	
+                    <span class="info">S:</span> 232 	
+                    <span class="info">S%:</span>15.9%	
+                    </p>
+                
+                </div>
+                
+                <div data-role="collapsible" data-theme="a">
+                
+                	<h3>2011/2012 Playoff Stats</h3>
+                    <p><span class="info">GP:</span>11 	
+                    <span class="info">G:</span>3 	
+                    <span class="info">A:</span> 5 	
+                    <span class="info">P:</span> 8 	
+                    <span class="info">+/-:</span> -7 	
+                    <span class="info">PIM:</span> 15 	
+                    <span class="info">PP:</span> 3 	
+                    <span class="info">SH:</span>0 	
+                    <span class="info">GW:</span>1 	
+                    <span class="info">S:</span> 27 	
+                    <span class="info">S%:</span>11.1%	
+                    </p>
+                </div>
+                
+                <div data-role="collapsible" data-theme="a">
+                
+                	<h3>Career Total</h3>
+                 <p><span class="info">GP:</span>843 	
+                    <span class="info">G:</span>222
+                    <span class="info">A:</span> 252 	
+                    <span class="info">P:</span> 474	
+                    <span class="info">+/-:</span> 59 	
+                    <span class="info">PIM:</span> 1,279 	
+                    <span class="info">PP:</span> 74	
+                    <span class="info">SH:</span>4	
+                    <span class="info">GW:</span>44 	
+                    <span class="info">S:</span> 1,956 	
+                    <span class="info">S%:</span>11.3%	
+                    </p>
+                </div>
+            
+            </div>
+            
+        </div><!-- end of content -->
+    
+    	<div data-role="footer" data-theme="a" data-position="fixed">
+        
+        	<nav data-role="navbar">
+            	
+                <ul>
+                	<li><a href="#players"><span class="menu">Back to Players</span></a></li>
+                    
+                </ul>
+                
+            </nav>
+        
+        </div> <!-- end of footer -->
+    	
+    </div><!--End of Player page-->
+<div data-role="page" id="Talbot">
+    
+    	<div data-role="header" data-theme="a">
+        
+        	<h3>Maxime Talbot</h3>
+        	<a href="#players" data-role="button" data-theme="a">Home</a>
+         
+        </div><!--End of header -->
+        
+        <div data-role="content">
+        	
+            <h2><span class="info">Max Talbot</span></h2>
+            
+            <div id="TalbotBio" class="ui-grid-a">
+            
+            	<div class="ui-block-a">
+            		<img src="images/talbot.jpg" alt="Talbot" />
+                </div>
+                
+                <div class="ui-block-b">
+                
+                	<h4><span class="info">Bio</span></h4>
+                    <ul>
+                    	<li>Height: 5'11"</li>
+						<li>Weight: 190</li>
+						<li>Shoots: Left</li>
+						<li>Born: Feb 11, 1984  (Age 28)  </li>
+						<li>Birthplace:  Lemoyne, QC, Canada</li>
+						<li>Drafted: PIT / 2002 NHL Entry Draft</li>
+						<li>Round: 8th (234th overall)  </li> 
+                    </ul>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="ui-grid-solo">
+            
+            	<div class="ui-block-a">
+                	<p> A Canadian professional ice hockey centre who currently plays for Ilves of the finnish SM-liiga. The Philadelphia Flyers is his team in the National Hockey League (NHL). Was drafted out of the Quebec Major Junior Hockey League (QMJHL), Talbot led the Hull/Gatineau Olympiques to back-to-back President's Cups while earning the Guy Lafleur Trophy as playoff MVP both years. He won the Stanley Cup with his previous team, the Pittsburgh Penguins, in 2009.
+                    </p>
+                </div>
+            
+            </div>
+            
+            <div data-role="collapsible-set" data-theme="a">
+            
+            	<div data-role="collapsible" data-theme="a">
+                
+                	<h3>2011/2012 Season Stats</h3>
+                    <p><span class="info">GP:</span>81	
+                    <span class="info">G:</span>19 	
+                    <span class="info">A:</span> 15 	
+                    <span class="info">P:</span> 34 	
+                    <span class="info">+/-:</span> 5 	
+                    <span class="info">PIM:</span> 59 	
+                    <span class="info">PP:</span> 1 	
+                    <span class="info">SH:</span>2 	
+                    <span class="info">GW:</span>1 	
+                    <span class="info">S:</span> 115 	
+                    <span class="info">S%:</span>16.5%	
+                    </p>
+                
+                </div>
+                
+                <div data-role="collapsible" data-theme="a">
+                
+                	<h3>2011/2012 Playoff Stats</h3>
+                    <p><span class="info">GP:</span>11 	
+                    <span class="info">G:</span>4 	
+                    <span class="info">A:</span> 2 	
+                    <span class="info">P:</span> 6 	
+                    <span class="info">+/-:</span> 5 	
+                    <span class="info">PIM:</span> 10 	
+                    <span class="info">PP:</span> 1 	
+                    <span class="info">SH:</span>2 	
+                    <span class="info">GW:</span>0 	
+                    <span class="info">S:</span> 15 	
+                    <span class="info">S%:</span>26.7%	
+                    </p>
+                </div>
+                
+                <div data-role="collapsible" data-theme="a">
+                
+                	<h3>Career Total</h3>
+                 <p><span class="info">GP:</span>469 	
+                    <span class="info">G:</span>71
+                    <span class="info">A:</span> 71 	
+                    <span class="info">P:</span> 142	
+                    <span class="info">+/-:</span> -22 	
+                    <span class="info">PIM:</span> 383 	
+                    <span class="info">PP:</span> 1	
+                    <span class="info">SH:</span>14	
+                    <span class="info">GW:</span>11 	
+                    <span class="info">S:</span> 596	
+                    <span class="info">S%:</span>11.9%	
+                    </p>
+                </div>
+            
+            </div>
+            
+        </div><!-- end of content -->
+    
+    	<div data-role="footer" data-theme="a" data-position="fixed">
+        
+        	<nav data-role="navbar">
+            	
+                <ul>
+                	<li><a href="#players"><span class="menu">Back to Players</span></a></li>
+                    
+                </ul>
+                
+            </nav>
+        
+        </div> <!-- end of footer -->
+    	
+    </div><!--End of Player page-->
+<div data-role="page" id="Coburn">
+    
+    	<div data-role="header" data-theme="a">
+        
+        	<h3>Braydon Coburn</h3>
+        	<a href="#players" data-role="button" data-theme="a">Home</a>
+         
+        </div><!--End of header -->
+        
+        <div data-role="content">
+        	
+            <h2><span class="info">Braydon Coburn</span></h2>
+            
+            <div id="CoburnBio" class="ui-grid-a">
+            
+            	<div class="ui-block-a">
+            		<img src="images/coburn.jpg" alt="Coburn" />
+                </div>
+                
+                <div class="ui-block-b">
+                
+                	<h4><span class="info">Bio</span></h4>
+                    <ul>
+                    	<li>Height: 6'5"</li>
+						<li>Weight: 220</li>
+						<li>Shoots: Left</li>
+						<li>Born: Feb 27, 1985  (Age 27)  </li>
+						<li>Birthplace:  Shaunavon, SK, Canada</li>
+						<li>Drafted: ATL / 2003 NHL Entry Draft</li>
+						<li>Round: 1st (8th overall)   </li> 
+                    </ul>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="ui-grid-solo">
+            
+            	<div class="ui-block-a">
+                	<p> Coburn was born in Calgary, Alberta but grew up in Shaunavon, Saskatchewan where he played most of his minor hockey. After his Bantam season in 1999-2000, Coburn was selected 1st overall in the WHL Bantam Draft by the Portland Winterhawks. The following season, Coburn played Midget AAA hockey for the Notre Dame, SK Hounds of the Saskatchewan Midget Hockey League.
+                    </p>
+                </div>
+            
+            </div>
+            
+            <div data-role="collapsible-set" data-theme="a">
+            
+            	<div data-role="collapsible" data-theme="a">
+                
+                	<h3>2011/2012 Season Stats</h3>
+                    <p><span class="info">GP:</span>81	
+                    <span class="info">G:</span>4 	
+                    <span class="info">A:</span> 20 	
+                    <span class="info">P:</span> 24 	
+                    <span class="info">+/-:</span> 10 	
+                    <span class="info">PIM:</span> 56 	
+                    <span class="info">PP:</span> 0 	
+                    <span class="info">SH:</span>0 	
+                    <span class="info">GW:</span>0 	
+                    <span class="info">S:</span> 113 	
+                    <span class="info">S%:</span>3.5%	
+                    </p>
+                
+                </div>
+                
+                <div data-role="collapsible" data-theme="a">
+                
+                	<h3>2011/2012 Playoff Stats</h3>
+                    <p><span class="info">GP:</span>11 	
+                    <span class="info">G:</span>0 	
+                    <span class="info">A:</span> 4 	
+                    <span class="info">P:</span> 4 	
+                    <span class="info">+/-:</span> 0	
+                    <span class="info">PIM:</span> 8 	
+                    <span class="info">PP:</span> 0 	
+                    <span class="info">SH:</span>0 	
+                    <span class="info">GW:</span>0 	
+                    <span class="info">S:</span> 12 	
+                    <span class="info">S%:</span>0.0%	
+                    </p>
+                </div>
+                
+                <div data-role="collapsible" data-theme="a">
+                
+                	<h3>Career Total</h3>
+                 <p><span class="info">GP:</span>460 	
+                    <span class="info">G:</span>30
+                    <span class="info">A:</span> 105 	
+                    <span class="info">P:</span> 135	
+                    <span class="info">+/-:</span> 40 	
+                    <span class="info">PIM:</span> 384 	
+                    <span class="info">PP:</span> 10	
+                    <span class="info">SH:</span>0	
+                    <span class="info">GW:</span>2 	
+                    <span class="info">S:</span> 650	
+                    <span class="info">S%:</span>4.6%	
+                    </p>
+                </div>
+            
+            </div>
+            
+        </div><!-- end of content -->
+    
+    	<div data-role="footer" data-theme="a" data-position="fixed">
+        
+        	<nav data-role="navbar">
+            	
+                <ul>
+                	<li><a href="#players"><span class="menu">Back to Players</span></a></li>
+                    
+                </ul>
+                
+            </nav>
+        
+        </div> <!-- end of footer -->
+    	
+    </div><!--End of Player page-->
+<div data-role="page" id="Pronger">
+    
+    	<div data-role="header" data-theme="a">
+        
+        	<h3>Chris Pronger</h3>
+        	<a href="#players" data-role="button" data-theme="a">Home</a>
+         
+        </div><!--End of header -->
+        
+        <div data-role="content">
+        	
+            <h2><span class="info">Chris Pronger</span></h2>
+            
+            <div id="ProngerBio" class="ui-grid-a">
+            
+            	<div class="ui-block-a">
+            		<img src="images/pronger.jpg" alt="Pronger" />
+                </div>
+                
+                <div class="ui-block-b">
+                
+                	<h4><span class="info">Bio</span></h4>
+                    <ul>
+                    	<li>Height: 6'6"</li>
+						<li>Weight: 220</li>
+						<li>Shoots: Left</li>
+						<li>Born:  Oct 10, 1974  (Age 38)  </li>
+						<li>Birthplace: Dryden, ON, Canada</li>
+						<li>Drafted: 	HFD / 1993 NHL Entry Draft</li>
+						<li>Round: 1st (2nd overall)    </li> 
+                    </ul>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="ui-grid-solo">
+            
+            	<div class="ui-block-a">
+                	<p>  A Canadian professional ice hockey defenceman and captain of the Philadelphia Flyers of the National Hockey League (NHL). Originally selected 2nd overall by the Hartford Whalers in the 1993 NHL Entry Draft, Pronger has played for Hartford, the St. Louis Blues, Edmonton Oilers, and Anaheim Ducks before being traded to the Flyers before the 2009–10 season, having also captained the Blues and Ducks during that time. He has appeared in the Stanley Cup finals with three different teams (Edmonton, Anaheim, and Philadelphia), winning the Cup with the Ducks in 2007. Pronger won the Hart Trophy as the league's most valuable player (for the 1999–2000 season) and was the first defenceman to win the award since Bobby Orr in 1972. A mainstay on Team Canada, Pronger won Olympic gold medals at Salt Lake City 2002 and Vancouver 2010 and is a member of the Triple Gold Club. 
+                    </p>
+                </div>
+            
+            </div>
+            
+            <div data-role="collapsible-set" data-theme="a">
+            
+            	<div data-role="collapsible" data-theme="a">
+                
+                	<h3>2011/2012 Season Stats</h3>
+                    <p><span class="info">GP:</span>13	
+                    <span class="info">G:</span>1	
+                    <span class="info">A:</span> 11 	
+                    <span class="info">P:</span> 12 	
+                    <span class="info">+/-:</span> 1 	
+                    <span class="info">PIM:</span> 10 	
+                    <span class="info">PP:</span> 1 	
+                    <span class="info">SH:</span>0 	
+                    <span class="info">GW:</span>0 	
+                    <span class="info">S:</span> 23 	
+                    <span class="info">S%:</span>4.3%	
+                    </p>
+                
+                </div>
+                
+                <div data-role="collapsible" data-theme="a">
+                
+                	<h3>2011/2012 Playoff Stats</h3>
+                    <p><span class="info">GP:</span>0 	
+                    <span class="info">G:</span>0 	
+                    <span class="info">A:</span> 0 	
+                    <span class="info">P:</span> 0 	
+                    <span class="info">+/-:</span> 0	
+                    <span class="info">PIM:</span> 0 	
+                    <span class="info">PP:</span> 0 	
+                    <span class="info">SH:</span>0 	
+                    <span class="info">GW:</span>0 	
+                    <span class="info">S:</span> 0 	
+                    <span class="info">S%:</span>0.0%	
+                    </p>
+                </div>
+                
+                <div data-role="collapsible" data-theme="a">
+                
+                	<h3>Career Total</h3>
+                 <p><span class="info">GP:</span>1,167 	
+                    <span class="info">G:</span>157
+                    <span class="info">A:</span> 541 	
+                    <span class="info">P:</span> 698	
+                    <span class="info">+/-:</span> 183 	
+                    <span class="info">PIM:</span> 1,590 	
+                    <span class="info">PP:</span> 83	
+                    <span class="info">SH:</span>2	
+                    <span class="info">GW:</span>27 	
+                    <span class="info">S:</span> 2,610	
+                    <span class="info">S%:</span>6.0%	
+                    </p>
+                </div>
+            
+            </div>
+            
+        </div><!-- end of content -->
+    
+    	<div data-role="footer" data-theme="a" data-position="fixed">
+        
+        	<nav data-role="navbar">
+            	
+                <ul>
+                	<li><a href="#players"><span class="menu">Back to Players</span></a></li>
+                    
+                </ul>
+                
+            </nav>
+        
+        </div> <!-- end of footer -->
+    	
+    </div><!--End of Player page-->
+</body>
+</html>

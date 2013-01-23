@@ -1,0 +1,70 @@
+[
+	{
+
+	"image" : "images/giroux.jpg",
+
+	"page" : "#Giroux",
+	
+	"name" : "Claude Giroux",
+	
+	"number" : "28",
+
+	"position" : "Center"
+	
+	},
+
+	{
+
+	"image" : "images/hartnell.jpg",
+
+	"page" : "#Hartnell",
+	
+	"name" : "Scott Hartnell",
+	
+	"number" : "19",
+
+	"position" : "Left Wing"
+	},
+
+	{
+
+	"image" : "images/talbot.jpg",
+
+	"page" : "#Talbot",
+	
+	"name" : "Maxime Talbot",
+	
+	"number" : "25",
+
+	"position" : "Center"
+	
+	},
+	
+	{
+
+	"image" : "images/coburn.jpg",
+
+	"page" : "#Coburn",
+	
+	"name" : "Braydon Coburn",
+	
+	"number" : "5",
+
+	"position" : "Defense"
+	
+	},
+	
+	{
+
+	"image" : "images/pronger.jpg",
+
+	"page" : "#Pronger",
+	
+	"name" : "Chris Pronger",
+	
+	"number" : "20",
+
+	"position" : "Defense"
+	
+	}
+]

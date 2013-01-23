@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+h1,h2 {
+	font-family:"Century Gothic",Helvetica, sans-serif;
+	
+}
+
+p {
+	color: #FFF;	
+}
+
+#home, #players, #content, #Giroux, #Hartnell, #Talbot, #Coburn, #Pronger{
+	background: url(../images/carbon_fibre_big.png);	
+}
+
+#Logo {
+	margin-top: 20px;	
+}
+
+#enter {
+	margin-top: 80px;
+	width: auto;
+	background: #FF6633;
+}
+
+.menu {
+	font-size: 22px;
+	color:#FF6633;	
+}
+
+#players img {
+	min-height: 120px;
+	min-width: 70px;	
+}
+
+#Giroux img{
+	margin-top: 70px;
+	min-height: 190px;
+}
+
+#Hartnell img{
+	margin-top: 70px;
+	min-height: 190px;
+}
+
+#Talbot img{
+	margin-top: 70px;
+	min-height: 190px;
+}
+
+#Coburn img{
+	margin-top: 70px;
+	min-height: 190px;
+}
+
+#Pronger img{
+	margin-top: 70px;
+	min-height: 190px;
+}
+
+#content ul li {
+	height: 125px;	
+}
+
+.info {
+	color: #FF6633;	
+}
+
+#GirouxBio, #HartnellBio, #TalbotBio, #CoburnBio, #ProngerBio h4 {
+
+	margin-top: 0px;
+	color: #FF6633;	
+	
+}
+
+#GirouxBio, #HartnellBio, #TalbotBio, #CoburnBio, #ProngerBio ul li {
+	color: #FFF;	
+}
+
+nav ul li a {
+	height: 60px;
+}
